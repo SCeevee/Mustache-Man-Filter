@@ -1,0 +1,29 @@
+h3{
+    font-size: 25px !important;
+}
+
+h3:hover{
+    font-size: 30px !important;
+    color:crimson !important;
+    background-color: darkolivegreen !important;
+}
+
+#take_snapshot:hover{
+    background-color: brown;
+}
+
+canvas{
+  animation-name: example;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example {
+
+  from {box-shadow: 1px 1px 90px red;}
+    to {box-shadow: 1px 1px 80px orange;}
+    to {box-shadow: 1px 1px 70px yellow;}
+    to {box-shadow: 1px 1px 60px lightgreen;}
+    to {box-shadow: 1px 1px 50px darkgreen;}
+    
+}
